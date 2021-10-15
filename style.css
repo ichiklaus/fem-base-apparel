@@ -1,0 +1,15 @@
+:root {
+  --de-red: hsl(0, 36%, 70%);
+}
+
+.upcase {
+  text-transform: uppercase;
+}
+
+.spaced {
+word-spacing: 5px;
+}
+
+.peach {
+color: var(--de-red);
+}
