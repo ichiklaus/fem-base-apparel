@@ -1,0 +1,63 @@
+@media screen and (min-width: 1440px), (min-width: 1080px) {
+ 
+
+  .card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .header {
+    order: 2;
+    height: 630px;
+    width: 600px;
+  }
+
+  .logo {
+    margin: 0;
+  }
+
+  .mobile-hide {
+    display: none;
+  }
+
+  .section-subscription {
+    background: url(/images/bg-pattern-desktop.svg);
+    background-position: top -18rem left 0rem;
+    background-repeat: no-repeat;
+    background-size: 150%;
+    display: flex;
+    flex-flow: row wrap;
+    height: 630px;
+    width: 600px;
+    margin-left: 3rem;
+  }
+
+  .logo {
+    padding: 3rem 0 0 4rem;
+  }
+
+  .content > h1 {
+    padding: 0 10rem 0 4rem;
+  }
+
+  .content > p {
+    padding: 0 6.5rem 0 4rem;
+  }
+
+.form {
+  margin: 0 0 3rem 2rem;
+}
+
+  .email-box {
+    padding-right: 10rem;
+  }
+
+  .responsive {
+    height: inherit;
+  }
+
+  .t-left {
+    text-align: left;
+  }
+}
