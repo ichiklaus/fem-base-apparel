@@ -31,10 +31,10 @@ Users should be able to:
 ### Screenshot
 
 <p align="center">
-    <img src="./screenshot/screenshot-desktop.png" alt="Base apparel comming soon page desktop preview">
+    <img src="./screenshot/Screenshot-desktop.png" alt="Base apparel comming soon page desktop preview">
 </p>
 <p align="center">
-  <img src="./screenshot/screenshot-mobile.png" alt="Base apparel comming soon page mobile preview">
+  <img src="./screenshot/Screenshot-mobile.png" alt="Base apparel comming soon page mobile preview">
 </p>
 
 
