@@ -43,7 +43,7 @@
               and our launch deals.
             </p>
           </div>
-          <form class="form" action="register-email">
+          <form class="form" action="#">
             <label for="email"></label>
             <input
               class="email-box"
@@ -51,15 +51,28 @@
               name="email"
               id="email"
               placeholder="Email Address"
-            />
-            <button class="s-button s-button--red" type="submit">
+            /><span
+              ><img
+                class="error-icon hidden"
+                src="images/icon-error.svg"
+                alt=""
+            /></span>
+            <button
+              class="s-button s-button--red"
+              type="submit"
+              id="submit-email"
+            >
               <img src="images/icon-arrow.svg" alt="Arrow icon submit button" />
             </button>
+            <p class="invalid hidden w-300 soft-red">
+              Please provide a valid email
+            </p>
           </form>
         </section>
       </div>
 
       <footer></footer>
     </main>
+    <script src="script/script.js"></script>
   </body>
 </html>
