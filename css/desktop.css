@@ -1,6 +1,4 @@
 @media screen and (min-width: 1440px), (min-width: 1080px) {
- 
-
   .card {
     display: flex;
     justify-content: center;
@@ -45,12 +43,20 @@
     padding: 0 6.5rem 0 4rem;
   }
 
-.form {
-  margin: 0 0 3rem 2rem;
-}
+  .form {
+    margin: 0 0 0rem 0rem;
+  }
 
   .email-box {
     padding-right: 10rem;
+  }
+
+  .invalid {
+    transform: translate(-10rem, 3rem);
+    -webkit-transform: translate(-10rem, 3rem);
+    -moz-transform: translate(-10rem, 3rem);
+    -ms-transform: translate(-10rem, 3rem);
+    -o-transform: translate(-10rem, 3rem);
   }
 
   .responsive {
