@@ -78,6 +78,14 @@ body > * {
   color: var(--desaturated-red);
 }
 
+.soft-red {
+  color: var(--soft-red);
+}
+
+.w-100 {
+  font-weight: 100;
+}
+
 .w-200 {
   font-weight: 200;
 }
@@ -91,11 +99,37 @@ body > * {
 }
 
 .form {
-  margin: 2rem 0;
+  margin: 2rem 0 0 0;
   display: flex;
   align-items: center;
   justify-content: center;
-  padding-left: 2rem;
+  padding-left: 3.5rem;
+}
+
+.invalid {
+  padding-left: 3.5rem;
+  margin-left: 2rem;
+  font-size: 12px;
+  margin-top: -1.25rem;
+  position: absolute;
+  transform: translate(-6.5rem, 3rem);
+  -webkit-transform: translate(-6.5rem, 3rem);
+  -moz-transform: translate(-6.5rem, 3rem);
+  -ms-transform: translate(-6.5rem, 3rem);
+  -o-transform: translate(-6.5rem, 3rem);
+}
+
+.hidden {
+  display: none;
+}
+
+.error-icon {
+  position: absolute;
+  transform: translate(-5rem, -0.75rem);
+  -webkit-transform: translate(-5rem, -0.75rem);
+  -moz-transform: translate(-5rem, -0.75rem);
+  -ms-transform: translate(-5rem, -0.75rem);
+  -o-transform: translate(-5rem, -0.75rem);
 }
 
 .email-box {
@@ -117,7 +151,7 @@ body > * {
 }
 
 .s-button {
-  padding: 0.65rem 1.35rem;
+  padding: 0.65rem 1.75rem;
   transform: translate(-3rem, 0);
   -webkit-transform: translate(-3rem, 0);
   -moz-transform: translate(-3rem, 0);
@@ -133,6 +167,12 @@ body > * {
     rgba(0, 0, 0, 0.22) 0px 10px 10px;
 }
 
+.s-button:hover {
+  cursor: pointer;
+  filter: contrast(130%) brightness(110%);
+  -webkit-filter: contrast(130%) brightness(110%);
+}
+
 .s-button--red {
   background-image: var(--linear2);
 }
@@ -145,5 +185,4 @@ body > * {
     max-width: 100%;
     height: auto;
   }
-  
 }
