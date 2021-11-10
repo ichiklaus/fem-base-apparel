@@ -1,54 +1,65 @@
 @media screen and (min-width: 1440px), (min-width: 1080px) {
-  .card {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .header {
-    order: 2;
-    height: 630px;
-    width: 600px;
-  }
-
-  .logo {
-    margin: 0;
+  .card,
+  .main {
+    height: 100%;
+    width: 100%;
   }
 
   .mobile-hide {
     display: none;
   }
 
-  .section-subscription {
-    background: url(/images/bg-pattern-desktop.svg);
-    background-position: top -18rem left 0rem;
-    background-repeat: no-repeat;
-    background-size: 150%;
+  .card {
     display: flex;
-    flex-flow: row wrap;
-    height: 630px;
-    width: 600px;
-    margin-left: 3rem;
+    flex-direction: row-reverse;
   }
 
+  .hero-container {
+    width: 610px;
+    height: 100%;
+  }
+
+  .responsive {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+  }
+
+  .content {
+    padding: 0;
+    margin-top: 4rem;
+  }
+
+  .form,
   .logo {
-    padding: 3rem 0 0 4rem;
+    margin-top: 3rem;
+    margin-left: 6rem;
+  }
+
+  .content {
+    margin-left: 8rem;
+  }
+
+  .form,
+  .content {
+    display: flex;
+    max-width: 450px;
   }
 
   .content > h1 {
-    padding: 0 10rem 0 4rem;
+    font-size: 4rem;
   }
 
-  .content > p {
-    padding: 0 6.5rem 0 4rem;
+  .section-subscription {
+    background: url(/images/bg-pattern-desktop.svg);
+    background-position: top -3rem left -2rem;
+    background-repeat: no-repeat;
+    background-size: 120%;
+    width: 100%;
   }
 
-  .form {
-    margin: 0 0 0rem 0rem;
-  }
-
-  .email-box {
-    padding-right: 10rem;
+  .t-left {
+    text-align: left;
   }
 
   .invalid {
@@ -57,13 +68,5 @@
     -moz-transform: translate(-10rem, 3rem);
     -ms-transform: translate(-10rem, 3rem);
     -o-transform: translate(-10rem, 3rem);
-  }
-
-  .responsive {
-    height: inherit;
-  }
-
-  .t-left {
-    text-align: left;
   }
 }
