@@ -10,9 +10,10 @@ btnSubmit.addEventListener("click", validateMail);
 function validateMail() {
   if (emailBox.value.match(MAIL_FORMAT)) {
     invalidText.classList.add("hidden");
-    errorIcon.classList.add("hidden");
+    errorIcon.classList.add("hidden");    
   } else if (!emailBox.value.match(MAIL_FORMAT) || emailBox.value === "") {
     invalidText.classList.remove("hidden");
     errorIcon.classList.remove("hidden");
+    emailBox.style.border = "2px solid var(--soft-red)"
   }
 }
